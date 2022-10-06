@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightblue;
+  color: #6a471c;
+  padding-left: 10px;
+}
+header {
+}
+
+.logo {
+  width: 50px;
+  display: inline-block;
+}
+
+.logo img {
+  width: inherit;
+}
+
+nav {
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+nav li {
+  list-style: none;
+  color: white;
+  float: left;
+  background-color: darkgreen;
+  margin: 2px;
+  border: darkgreen solid;
+  border-radius: 10px;
+  padding: 0.1rem 0.2rem 0 0.2em;
+}
+.groove {
+  border-style: groove;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 10px 0;
+}
+p {
+  padding: 5px 0;
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 5px;
+}
+.article-section {
+  display: inline-block;
+}
+.article-section article {
+  width: 250px;
+  display: inline-block;
+  background-color: rgb(211, 211, 211);
+  padding: 15px;
+}
+article img {
+  width: 100%;
+}
+article p {
+  background-color: white;
+  padding: 12px;
+}
+aside {
+  background-color: rgb(201, 201, 200);
+  border: 2px solid;
+  border-left-color: hotpink;
+  border-bottom-color: hotpink;
+  border-top: none;
+  border-right: none;
+  width: 500px;
+  padding: 5px;
+}
+footer {
+  margin-top: 100px;
+  border: red solid 2px;
+  text-align: center;
+  padding: 13px;
+  color: black;
+  background-color: rgb(201, 201, 200);
+}
+footer p {
+  border: red solid 2px;
+}
+/* Styling links */
+/*
+    :link
+    :visited
+    :hover
+    :active
+*/
